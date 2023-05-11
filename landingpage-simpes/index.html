@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,21 @@
     <script src="https://kit.fontawesome.com/fc4be3fff0.js" crossorigin="anonymous"></script>
     <title>Home Page</title>
 </head>
+
 <body>
     <header>
 
         <form action="" id="register">
             <p>Cadastre-se</p>
             <div class="field">
-                <input type="text" placeholder="Digite seu nome"></div>
+                <input type="text" placeholder="Digite seu nome">
+            </div>
             <div class="field">
-                <input type="email" placeholder="Digite seu e-mail"></div>
+                <input type="email" placeholder="Digite seu e-mail">
+            </div>
             <div class="field">
-                <input type="date" placeholder="Data de nascimento"></div>
+                <input type="date" placeholder="Data de nascimento">
+            </div>
             <div class="field">
                 <label><input type="radio" name="gender" value="M"> <span>Masculino</span></label>
                 <label><input type="radio" name="gender" value="F"> <span>Feminino</span></label>
@@ -30,19 +35,75 @@
         <div class="bg-gradient">
             <div class="header-border">
                 <div id="logo">
-                    <img src="assets/img/escudo.pn" alt="">
+                    <h2>CG</h2>
                 </div>
 
                 <nav class="menu">
                     <button type="button" class="open-menu"><i class="fas fa-bars"></i></button>
                     <div class="backdrop"></div>
                     <ul>
-                        <li class="close-menu"><button type="button"></button></li>
+                        <li class="close-menu"><button type="button">
+                                <i class="fas fa-xmark"></i></button></li>
+                        <li><a href="#logo">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    
+
+    <section class="home">
+        <main class="container">
+            <div class="title">
+                <h1>CG IMPORTS</h1>
+            </div>
+            <div id="about">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dolores ipsam doloribus? Doloremque fugit
+                similique amet repellat autem repudiandae, molestias natus in optio aspernatur. Amet ex explicabo
+                reiciendis est cumque.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reprehenderit alias, porro doloribus
+                optio maiores quam ullam labore eius consequuntur vel. Quo illum nam, quas optio omnis modi quam
+                architecto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, nihil. Necessitatibus,
+                officiis accusantium nemo vero eum eos tempora similique obcaecati alias ab distinctio repellat amet
+                minus facilis quod dolorum? Accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Delectus ipsa reprehenderit, repellendus accusamus explicabo laboriosam adipisci laborum consequuntur
+                eum officia quisquam quia quibusdam vel fuga eveniet amet et libero labore.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut pariatur quis, quia similique nemo cum
+                repellendus voluptates eius blanditiis provident ipsam possimus placeat delectus, consequatur minima
+                doloremque quos modi hic? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam natus
+                suscipit, quasi praesentium ipsa error repellendus deleniti doloremque eveniet corrupti laborum tempore
+                at maxime quia dolorum sunt! Earum, reiciendis in.</p>
+            </div> 
+                <section class="contact-container">
+                    <h2 class="sobre">Entre em contato</h2>
+                    <p>Envie uma mensagem caso tenha alguma dúvida sobre sua compra!</p>
+                    <form class="form-container">
+                        <div class="inputs">
+                            <input type="text" name="name" placeholder="Seu nome">
+                            <input type="email" name="email" placeholder="Seu e-mail">
+                        </div>
+                        <div> <textarea name="message" placeholder="Digite sua mensagem"></textarea></div>
+                        <div><input type="submit" value="Enviar"></div>
+                    </form>
+                </section>
+
+        </main>
+    </section>
+    <footer>
+
+        <div class="container">
+            <p>&copy; Loja especializada em camisas de time importadas! Vendas para todo o Brasil!</p>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#logo">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
+
 </html>
